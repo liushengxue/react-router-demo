@@ -3,7 +3,11 @@ import React , { Component} from 'react';
 class Admin extends Component {
   render(){
     return(
-      <div>Admin</div>
+      <div>
+        <div>Admin</div>
+        <br/>
+        {this.props.children}
+      </div>
     )
   }
 }
